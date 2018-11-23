@@ -11,7 +11,7 @@ set(TOL ${CMAKE_CURRENT_SOURCE_DIR}/../../Danlawv2x_toolchain.cfg)
 
 include(${TOL})
 set(BIN_NAME "Run")
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../bin/)
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../bin/)
 set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src/run-cmd.c)
 
 include_directories(${SOURCE_DIR})
